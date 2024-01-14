@@ -1,0 +1,215 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+ } 
+ i{
+  margin: 0px 6px; 
+ }
+ div{
+  display: inline-block;
+ }
+div.menuPanel{
+  width: 18vw;
+  height: 100vh;
+  background-color: black;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  text-align: center;
+}
+div.menuPanel p{
+  text-align: Center;
+  width: 100%;
+  font-size: 24px;
+  color: white;
+  font-family: Roboto;
+}
+div.menuPanel hr{
+  width: 95%;
+  color: white;
+  margin: 15px 5px;
+}
+.fa-user-tie{
+  color: white;
+  font-size: 34px;
+  padding: 20px;
+  border: 2px solid white;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+div.menuPanel input[type="button"]{
+  border: 1px solid white;
+  color: white;
+  padding: 8px 14px;
+  outline: none;
+  background-color: black;
+  border-radius: 6px;
+  margin-left: 3px;
+  margin-right: 3px;
+  font-family: Roboto;
+}
+div.menuPanel input[type="button"]:hover{
+  background-color: gainsboro;
+  color: black;
+  cursor: pointer;
+}
+div.menuPanel ul{
+  list-style-type: none;
+  margin-top: 30px;
+}
+div.menuPanel li{
+  border-bottom: 1px solid white;
+  text-align: left;
+  margin-left: 15px;
+  margin-right: 20px;
+  color: white;
+  font-family: Roboto;
+  padding: 12px;
+  cursor: pointer;
+}
+div.menuPanel li a{
+  text-decoration: none;
+  color: white;
+}
+.form-container {
+background-color: #fff;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+padding: 20px;
+border-radius: 8px;
+width: 75vw;
+text-align: center;
+margin-top: 20px;
+}
+.dept-data{
+  margin: 30px 0px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 8px;
+  width: 75vw;
+  text-align: center; 
+}
+div.main-panel{
+  margin-left: 300px;
+  height: 80vh;
+  width: 70vw;
+}
+form{
+  margin-top: 20px;
+}
+h2 {
+color: #333;
+}
+
+label {
+margin-top: 10px;
+color: #555;
+font-family: Roboto;
+}
+
+div.main-panel input{
+padding: 10px;
+margin-bottom: 15px;
+border: 1px solid #ccc;
+border-radius: 4px;
+font-size: 16px;
+display: inline-block;
+}
+button{
+padding: 12px;
+background-color: #333;
+color: #fff;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+font-size: 16px;
+}
+button:hover {
+background-color: #555;
+}
+fieldset{
+  display: block;
+  border: none;
+}
+/* Table style */
+table{
+border-spacing:0; 
+}
+tr th{
+font-family: Roboto;
+font-size: 17px;
+text-align: center;
+border-bottom: 2px solid black;
+padding: 8px;
+} 
+tr td{
+font-family: Roboto;
+font-size: 14px;
+text-align: left;
+padding: 7px;
+border-bottom: 1px solid lightgrey;
+}
+
+form {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.form-group {
+  width: 48%; /* Adjust the width as needed */
+  margin-bottom: 16px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  color: #555;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #555;
+}
+.container {
+width: 70%;
+height:fit-content;
+margin: 20px auto; /* Optional: Center the container */
+background-color: #f3f3f3; /* Slightly darker than white */
+padding: 20px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
+}
+
+/* Style for the table */
+table {
+width: 100%;
+border-collapse: collapse;
+margin-top: 20px;
+}
+
+/* Style for table cells */
+td {
+border: 1px solid #ddd;
+padding: 8px;
+text-align: center;
+}

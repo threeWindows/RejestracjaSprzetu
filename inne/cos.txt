@@ -1,0 +1,22 @@
+<p><i class="fa-solid fa-user-tie"></i></p>
+        <?php
+        session_start();
+        if(isset($_SESSION['usID']))
+        {
+            echo "<p>";
+            echo $_SESSION['usID'];
+            echo "</p>";      
+        }
+        ?>
+        <hr>
+        <input type="button" value="Rejestracja">
+        <input type="button" value="Wylogowanie">
+        <hr>
+        <ul>
+            <li><i class="fa-regular fa-building"></i>   Dane oddziału</li>
+            <li><i class="fa-solid fa-people-roof"></i>   Klienci serwisu</li>
+            <li><i class="fa-solid fa-user"></i>   Pracownicy</li>
+            <li><i class="fa-regular fa-newspaper"></i>   Kartoteka sprzętu</li>
+            <li>Opcja aplikacji nr 5</li>
+        </ul>
+    </div>
